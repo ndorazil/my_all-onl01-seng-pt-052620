@@ -8,6 +8,7 @@ def my_all?(collection)
     i += 1
   end
   
+  # determining whether the array contains any false elements
   if block_return_values.include?(false)
     false
   else
